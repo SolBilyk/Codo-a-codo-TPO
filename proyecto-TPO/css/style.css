@@ -1,0 +1,245 @@
+.nav-header {
+  background-color: #ff571e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+}
+
+.sec-home {
+  height: 600px;
+  background-color: #ff571e;
+}
+.sec-home .cta-home {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 0 0.65em 0 0.65em;
+}
+.sec-home .cta-home .cta-animacion video {
+  border-radius: 50%;
+}
+.sec-home .cta-home .cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+.sec-home .cta-home .cta-text .cta-title h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+}
+.sec-home .cta-home .cta-text .cta-title2 {
+  color: white;
+  align-self: center;
+  font-size: 1.5em;
+}
+.sec-home .cta-home .cta-text .cta-button {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  border: solid 1px #eee;
+  border-radius: 0.45rem;
+  margin-top: 1.25em;
+}
+.sec-home .cta-home .cta-text .cta-button:hover {
+  border: solid 1px #3b5998;
+}
+.sec-home .cta-home .cta-text .cta-button .button-icon {
+  background-color: #3b5998;
+  padding: 0.65rem;
+  border: solid 1px #3b5998;
+  border-radius: 0.45rem 0 0 0.45rem;
+}
+.sec-home .cta-home .cta-text .cta-button .button-icon img {
+  width: 1.4rem;
+}
+.sec-home .cta-home .cta-text .cta-button .button-text {
+  align-self: center;
+  padding: 0.65rem;
+  color: #888;
+  opacity: 0.98;
+}
+
+.sec-top-rest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.85em;
+  height: 450px;
+}
+.sec-top-rest .top-rest-button {
+  margin-top: 0.85em;
+}
+.sec-top-rest .cta-toprest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-top-rest .cta-toprest .cta-title h2 {
+  padding: 0.65rem;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.sec-top-rest .cta-toprest .cta-content {
+  padding: 0.85em;
+  margin-top: 1.25em;
+}
+.sec-top-rest .cta-toprest .cta-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.sec-top-rest .cta-toprest .cta-content ul li {
+  padding: 0.85rem;
+  margin: 1rem;
+}
+.sec-top-rest .cta-toprest .cta-content ul li .a-container {
+  width: 120px;
+}
+.sec-top-rest .cta-toprest .cta-content ul li .a-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.sec-top-rest .cta-toprest .cta-content ul li .a-container a:hover {
+  opacity: 0.8;
+}
+.sec-top-rest .cta-toprest .cta-content ul li .a-container a .img-a-container img {
+  width: 100%;
+  padding: 0.25rem;
+  margin-bottom: 0.2rem;
+}
+
+.sec-rest-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.65em;
+  height: 450px;
+}
+.sec-rest-action .cta-button {
+  margin-top: 2.25em;
+  margin-bottom: 4.55em;
+}
+.sec-rest-action .cta-rest-action {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+}
+.sec-rest-action .cta-rest-action .cta-title h2 {
+  padding: 0.65rem;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.sec-rest-action .cta-rest-action .cta-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.85em;
+  margin-top: 1.25em;
+}
+.sec-rest-action .cta-rest-action .cta-content .cta-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+  margin-right: 2.65em;
+}
+.sec-rest-action .cta-rest-action .cta-content .cta-img img {
+  width: 150px;
+}
+.sec-rest-action .cta-rest-action .cta-content .cta-img span {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sec-footer {
+  margin-top: 4.25em;
+  height: 350px;
+  background-color: #202020;
+  color: white;
+}
+.sec-footer .sec-footer-content {
+  padding: 4.35em;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.btn-primary, .btn-primary-lg, .btn-primary-s {
+  border-radius: 0.85rem;
+  padding: 0.5rem 2.25rem;
+  background-color: #3b5998;
+  border: solid 1px #3b5998;
+  color: white;
+}
+.btn-primary:hover, .btn-primary-lg:hover, .btn-primary-s:hover {
+  color: #3b5998;
+  background-color: white;
+}
+.btn-primary-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+.btn-primary-lg {
+  padding: 0.5rem 4.5rem;
+}
+
+.btn-secundary, .btn-secundary-lg, .btn-secundary-s {
+  border-radius: 0.85rem;
+  padding: 0.5rem 2.25rem;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+}
+.btn-secundary:hover, .btn-secundary-lg:hover, .btn-secundary-s:hover {
+  color: #888;
+}
+.btn-secundary-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+.btn-secundary-lg {
+  padding: 0.5rem 4.5rem;
+}
+
+.wave-header {
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+}
+.wave-header svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.wave-footer {
+  min-height: 50vh;
+  width: 100%;
+  position: relative;
+}
+.wave-footer svg {
+  position: absolute;
+  top: -550;
+  left: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
